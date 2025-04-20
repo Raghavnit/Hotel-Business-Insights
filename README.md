@@ -24,35 +24,15 @@ Making reporting insights obtained to provide insight related to hotel business 
 
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/blob/main/Investigate%20Hotel%20Business%20using%20Data%20Visualization.ipynb)
 
 - **Programming Language : Python**
 
-<img src="https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/56c631b5-8740-4417-aba0-bef8061f9a83" height="100"/>
-
 - **Data Preprocessing & Cleaning Library : Pandas & Numpy**
 
-<img src="https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/761899f1-56b8-429a-bb2d-2d02fd2e82e3" height="100"/>
-
-<img src="https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/8f98dcaa-82c9-4cb7-a78c-c0351b200aeb" height="100"/>
 
 - **Data Visualization Library : Matplotlib & Seaborn**
 
-<img src="https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/b1fc2762-1342-4608-a778-1312d7537131" height="100"/>
-
-<img src="https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/529f1e4d-71ec-4a19-84d1-7389ee90c03a" height="100"/>
-
 - **Git and Github**
-
-Repository : [Investigate-Hotel-Business-using-Data-Visualization](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization)
-
-- **Libraries**
-
-[Requirements Text](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/blob/main/requirements.txt)
-
-- **Dataset**
-
-[hotel_bookings_data.csv](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/blob/main/Dataset/hotel_bookings_data.csv)
 
 ## **🕹 Data Description 🕹**
 
@@ -61,7 +41,7 @@ Repository : [Investigate-Hotel-Business-using-Data-Visualization](https://githu
 📌 Data provide by Rakamin - hotel_bookings data.csv 📌 
 ```
 
-**Hotel Bookings Dataset ([link datasets](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/blob/main/Dataset/hotel_bookings_data.csv))**
+**Hotel Bookings Dataset **
 
 **Dataset Description:**
 
@@ -152,9 +132,6 @@ This dataset contains `119,390 samples`. Contains `29 features` :
 Resources : https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
 
 
-# **🏝 Data Cleansing/Preprocessing 🏝**
-
-<img src="https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/dd6f609d-b776-438d-8e7f-fc1d9cb66429" height="90" />
 
 ## **📌 Handling Duplicate Rows**
 
@@ -207,14 +184,6 @@ So, we will filter some things, namely:
 - If there is a single data entry for adr (Average Daily Rate), it might be due to a data calculation error. Since there is only one row, it will be dropped to avoid errors in the analysis.
 
 
-# **💫 Statistical Summary 💫**
-
-![image](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/1b7a4b10-82de-41ce-82d2-0821003957ab)
-
-![image](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/29538723-6f67-41cf-931b-8bd553818466)
-
-![image](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/53bd88a7-172c-4042-8f23-084fe3205714)
-
 # **🎁 Exploring Business Insights 🎁**
 
 ## **📌 Monthly Hotel Booking Analysis Based on Hotel Type**
@@ -223,7 +192,6 @@ In the hotel industry, customer behavior in hotel bookings plays a crucial role 
 
 Therefore, the goal of this task is to compare the number of hotel bookings each month based on the hotel types and analyze when there are increases or decreases in hotel bookings during different months or seasons.
 
-![image](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/5666cc6c-d97b-4465-a86f-cf7cb883041b)
 
 Interpretation:
 
@@ -242,8 +210,6 @@ In addition to analyzing customer behavior in booking hotels, the success of a h
 
 To analyze the correlation between the duration of stay and the hotel booking cancellation rate.
 
-![image](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/5bc8fbc6-b117-449d-98f5-e426c6e53884)
-
 Interpretation : 
 - The City Hotel experiences the highest number of cancellations with a significant increasing trend, while the Resort Hotel also shows an increasing trend, but not as steady.
 
@@ -258,8 +224,6 @@ Interpretation :
 The objective of this business insight exploration is to analyze the correlation between the lead time for hotel bookings and the rate of hotel booking cancellations. In the hotel industry, customers are usually allowed to book hotels before their arrival dates, and the lead time can vary from a few days to several months. 
 
 The task is to examine whether the lead time between the hotel booking and the arrival date influences the rate of hotel booking cancellations.
-
-![image](https://github.com/nurimammasri/Investigate-Hotel-Business-using-Data-Visualization/assets/54845293/e4e18fad-0482-48d6-958e-e2861a4c977c)
 
 Interpretation :
 
