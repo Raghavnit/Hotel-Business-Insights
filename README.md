@@ -33,12 +33,6 @@ Making reporting insights obtained to provide insight related to hotel business 
 - **Data Visualization Library : Matplotlib & Seaborn**
 
 - **Git and Github**
-
-## **🕹 Data Description 🕹**
-
-```
-🚨✨ This project is from Mini Project Data Science Bootcamp Rakamin Academy Batch 32 ✨🚨
-📌 Data provide by Rakamin - hotel_bookings data.csv 📌 
 ```
 
 **Hotel Bookings Dataset **
